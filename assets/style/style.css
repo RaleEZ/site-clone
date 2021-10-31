@@ -1,0 +1,246 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+:root {
+	--fnt: "Titillium Web", sans-serif;
+	--clr-fnt: #fff;
+	--clr-sec-one: #87509c;
+	--clr-active: #643a79;
+	--btn-secOne: #eb7d4b;
+	--btn-shdw: #c86a40;
+	--clr-sec-two: #17c2a4;
+	--clr-txt-lyr: #14a58c;
+	--clr-use: #effbf9;
+	--clr-sec-three: #e7f1f8;
+	--clr-names: #e7f1f8;
+	--clr-clients: #30bae7;
+	--clr-icons: #30bae7;
+}
+#main {
+	overflow: hidden;
+	background: #87509c;
+	height: 75vh;
+}
+.logo {
+	margin-left: 40px;
+	/*border: 2px solid blue;*/
+}
+.nav {
+	/*border: 2px solid red;*/
+}
+nav {
+	position: relative;
+	top: -75px;
+	left: 58%;
+	max-width: 580px;
+	/*border: 2px solid green;*/
+}
+nav a {
+	font-family: var(--fnt);
+	font-size: 18px;
+	font-weight: 400;
+	padding: 20px 25px;
+	color: var(--clr-fnt);
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav .main {
+	background: var(--clr-active);
+	padding: 7px 10px;
+	border-radius: 10px;
+}
+.box {
+	/*border: 2px solid yellow;*/
+	height: 320px;
+	margin: 10px;
+}
+.box .mainHead {
+	font-family: var(--fnt);
+	font-size: 42px;
+	color: var(--clr-fnt);
+	width: 920px;
+	position: relative;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	/*border: 2px solid cyan;*/
+}
+.box .mainHead .first {
+	margin-left: 80px;
+}
+.btnOne {
+	background-color: var(--btn-secOne);
+	border-radius: 4px;
+	height: 75px;
+	width: 200px;
+	position: relative;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-shadow: 0 5px 0 var(--btn-shdw);
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+.btnOne a {
+	font-family: var(--fnt);
+	font-size: 18px;
+	color: var(--clr-fnt);
+	text-transform: uppercase;
+	text-decoration: none;
+}
+#content {
+	height: 105vh;
+	overflow: hidden;
+	background: var(--clr-sec-two);
+}
+.title {
+	/*border: 2px solid pink;*/
+	height: 250px;
+}
+#title {
+	/*border: 2px solid black;*/
+	font-family: var(--fnt);
+	font-size: 40px;
+	text-transform: uppercase;
+	color: var(--clr-fnt);
+	width: 405px;
+	position: relative;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#desc {
+	/*border: 2px solid red;*/
+	font-family: var(--fnt);
+	font-size: 18px;
+	color: var(--clr-use);
+	position: relative;
+	width: 600px;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#desc .desc {
+	margin-left: 122px;
+}
+.icons {
+	height: 550px;
+	/*border: 2px solid red;*/
+}
+.offer {
+	/*border: 2px solid blue;*/
+	height: 292px;
+}
+.image1, .image2, .image3, .image4 {
+	/*border: 2px solid purple;*/
+	display: inline-block;
+	margin-left: 5px;
+}
+.offer .image1 {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: 50%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+}
+.offer .image2 {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+}
+.offer .image3 {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: 50%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+}
+.offer .image4 {
+	height: 200px;
+	width: 200px;
+	position: relative;
+	top: 50%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+}
+.image1 img {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.image2 img {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.image3 img {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.image4 img {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.texting1, .texting2, .texting3, .texting4 {
+	display: inline-block;
+	margin: 10px;
+}
+.text {
+	height: 250px;
+	border: 2px solid green;
+}
+.text .texting1 {
+	border: 2px solid black;
+	height: 200px;
+	width: 250px;
+	position: relative;
+	top: 45%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+}
+.text .texting2 {
+	border: 2px solid white;
+	height: 200px;
+	width: 250px;
+	position: relative;
+	top: 45%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+}
+.text .texting3 {
+	border: 2px solid black;
+	height: 200px;
+	width: 250px;
+	position: relative;
+	top: 45%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+}
+.text .texting4 {
+	border: 2px solid white;
+	height: 200px;
+	width: 250px;
+	position: relative;
+	top: 38%;
+	left: 25%;
+	transform: translate(-50%, -50%);
+}
